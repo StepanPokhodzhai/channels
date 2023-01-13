@@ -33,5 +33,4 @@ func checkLink(link string, c chan string) {
 	}
 	fmt.Println(link)
 	c <- link
-
 }
